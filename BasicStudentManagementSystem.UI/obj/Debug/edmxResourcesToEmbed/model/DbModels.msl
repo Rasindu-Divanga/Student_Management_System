@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="StudentManagementBasicModelStoreContainer" CdmEntityContainer="StudentManagementBasicEntities">
+    <EntitySetMapping Name="Studentdetails">
+      <EntityTypeMapping TypeName="StudentManagementBasicModel.Studentdetail">
+        <MappingFragment StoreEntitySet="Studentdetails">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="StudentName" ColumnName="StudentName" />
+          <ScalarProperty Name="StudentBD" ColumnName="StudentBD" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="CourseName" ColumnName="CourseName" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="sex" ColumnName="sex" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CourseNames">
+      <EntityTypeMapping TypeName="StudentManagementBasicModel.CourseName">
+        <MappingFragment StoreEntitySet="CourseNames">
+          <ScalarProperty Name="CourseName1" ColumnName="CourseName" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
